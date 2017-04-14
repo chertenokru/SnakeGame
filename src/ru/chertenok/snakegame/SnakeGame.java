@@ -15,7 +15,19 @@ import java.util.List;
 
 /**
  * @author 13-ый
+ *
+ *
+ *
+ *   Что хотел сдать - не успел, но что-то сдать надо...
+ *   вот решил в качестве домашки "старый" проект выложить
+ *
+ *
+ *
+ *
+ *
  */
+
+
 public class SnakeGame extends JPanel implements ActionListener, SnakeCheckEvent, GameEffectComplitEvent {
 
     public static final int SCALE = 16;
@@ -79,6 +91,7 @@ public class SnakeGame extends JPanel implements ActionListener, SnakeCheckEvent
         g.setColor(new Color(5, 50, 10));
         g.fillRect(0, 0, WIDTH * SCALE + SCOPEWIDTH, HEIGHT * SCALE);
         g.setColor(Color.GRAY);
+
 
         for (int x = 0; x < WIDTH; x++)
             for (int y = 0; y < HEIGHT; y++) {

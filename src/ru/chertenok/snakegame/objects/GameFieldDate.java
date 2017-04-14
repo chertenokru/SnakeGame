@@ -23,8 +23,9 @@ public class GameFieldDate {
    
   // private GameField
    private int levelCount=1;
-  
-   private final int WIDTH;
+
+
+    private final int WIDTH;
    private  final int HEIGHT;   
    private GameEffectObject e=null;
    private List<GameFielDateChangeEvent> listChangeListener=new ArrayList<GameFielDateChangeEvent>();
@@ -83,7 +84,9 @@ public class GameFieldDate {
    {
        this.WIDTH=width;
        this.HEIGHT=height;
-       field=new int[width][height];       
+
+
+       field = new int[width][height];
    }
    
 }

@@ -5,14 +5,12 @@
  */
 package ru.chertenok.snakegame.objects;
 
-import java.awt.Color;
-import java.awt.Font;
-import java.awt.Graphics;
+import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.List;
-import javax.swing.Timer;
 
 /**
  *
@@ -51,10 +49,10 @@ public class GameEffectObject implements ActionListener{
                 
        
         addCompliteListener(onCompliteListener);
-              
-       
+
    }
-  
+
+
     public void draw(Graphics g)
     {
          g.setFont(new Font("Tahome", Font.BOLD, 15));
